@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Memoir</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">My Memoir</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="profile-content">
+                <div class="profile-image">
+                    <img src="pics/IMG_20241030_175330.jpg" alt="Profile Picture" class="profile-pic">
+                    <div class="circle-animation"></div>
+                </div>
+                <div class="profile-text">
+                    <h1 class="name">Charles De Vera</h1>
+                    <p class="title">BSIT 3rd Year Student - SMP</p>
+                
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/charles.devera.125"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="#about" class="cta-button">Explore My Story <i class="fas fa-arrow-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <!-- Education Card -->
+                <div class="about-card" data-aos="fade-up">
+                    <div class="card-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Educational Background</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h4>Elementary</h4>
+                                <p>Los Baños Central Elementary School - 2014</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Junior High School</h4>
+                                <p>Los Baños National High School - Poblacion - 2017</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Senior High School</h4>
+                                <p>Los Baños Bambang Senior High School - 2019</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>College</h4>
+                                <p>Laguna State Polytechnic University - Los Baños Campus (Present)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Awards Card -->
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-header">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Awards & Achievements</h3>
+                    </div>
+                    <div class="card-content">
+                        <ul class="awards-list">
+                            <li>Graduated Elementary Top 2 (2014)</li>
+                            <li>Graduated Junior High School With Honor (2017)</li>
+                            <li>Graduated Senior High School with High Honor (2019)</li>
+                            <li>Consistent Dean's Lister since first year College (2022-2025)</li>
+                            <li>Top 2 News Writing Category (English) Division of Laguna School Press Conference - 2018</li>
+                            <li>Top 7 News Writing Category (Filipino) Division of Laguna School Press Conference - 2018</li>
+                            <li>Bible quizbee Winner (2018)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Work Experience Card -->
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Work Experience</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="work-item">
+                            <h4>Continental Production Operator</h4>
+                            <p>2020 - 2021</p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications Card -->
+                <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-header">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Certifications</h3>
+                    </div>
+                    <div class="card-content">
+                        <ul class="cert-list">
+                            <li>National Certificate II Holder - Computer System Servicing (2019)</li>
+                            <li>DOST- CALABARZON Invent School Program Participant (2018)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Family Card -->
+                <div class="about-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-header">
+                        <i class="fas fa-users"></i>
+                        <h3>Family</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="family-gallery">
+                            <div class="family-member">
+                                <div class="family-img" style="background-image: url('pics/mama.jpg');"></div>
+                                <p>Mother - Rosemarie De Vera</p>
+                            </div>
+                            <div class="family-member">
+                                <div class="family-img" style="background-image: url('pics/lasille.jfif');"></div>
+                                <p>Sibling - Lassile De Vera</p>
+                            </div>
+                            <div class="family-member">
+                                <div class="family-img" style="background-image: url('pics/lyka.jpg');"></div>
+                                <p>Sibling - Lyka De Vera</p>
+                            </div>
+                            <div class="family-member">
+                                <div class="family-img" style="background-image: url('pics/dave.jpg');"></div>
+                                <p>Sibling - Harry Dave De Vera</p>
+                            </div>
+                            <div class="family-member">
+                                <div class="family-img" style="background-image: url('pics/lyra.jpg');"></div>
+                                <p>Sibling - Lyra De Vera</p>
+                            </div>
+                            <div class="family-member">
+                                <div class="family-img" style="background-image: url('pics/laiza.jpg');"></div>
+                                <p>Sibling - Laiza De Vera</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interests Card -->
+                <div class="about-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-header">
+                        <i class="fas fa-heart"></i>
+                        <h3>Interests</h3>
+                    </div>
+                    <div class="card-content">
+                        <div class="interests-container">
+                            <div class="interest-item">
+                                <i class="fas fa-music"></i>
+                                <span>Dancing</span>
+                            </div>
+                            <div class="interest-item">
+                                <i class="fas fa-microphone"></i>
+                                <span>Singing</span>
+                            </div>
+                            <div class="interest-item">
+                                <i class="fas fa-book"></i>
+                                <span>Reading</span>
+                            </div>
+                            <div class="interest-item">
+                                <i class="fas fa-code"></i>
+                                <span>Programming</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <p>Web Design</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Front-end Development</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Back-end Development</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-width="65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>System Analysis</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-item">
+                        <p>Communication</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-width="93%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Teamwork</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-width="87%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Problem Solving</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Time Management</p>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="philosophy-section">
+        <div class="container">
+            <div class="philosophy-content" data-aos="zoom-in">
+                <h2 class="section-title">My Philosophy</h2>
+                <blockquote>
+                    "I think, therefore I am" 
+                    <footer>- René Descartes</footer>
+                </blockquote>
+                <div class="philosophy-text">
+                    <p>This foundational statement represents my belief in the power of consciousness and self-awareness as the basis of existence and knowledge.</p>
+                    <p>In my journey as a student and future IT professional, I apply this philosophy by constantly questioning, analyzing, and verifying information to build a solid foundation of understanding.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">My Gallery</h2>
+            <div class="gallery-container">
+                <!-- Images -->
+                <div class="gallery-item" data-aos="zoom-in">
+                    <img src="pics/IMG_20250509_192020.jpg" alt="Gallery Image 1">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="pics/IMG_20250509_192320.jpg" alt="Gallery Image 2">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="pics/IMG_20250509_192409.jpg" alt="Gallery Image 3">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="pics/IMG_20250509_192610.jpg" alt="Gallery Image 4">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="pics/IMG_20250509_192745.jpg" alt="Gallery Image 5">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+              
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="pics/IMG_20250509_193035.jpg" alt="Gallery Image 5">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="pics/wallpaper.jpeg" alt="Gallery Image 5">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="pics/wallpaper1.jpg" alt="Gallery Image 5">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+
+                    <div class="gallery-item video-item">
+                        <div class="video-preview">
+                        <video class="video-thumb" preload="metadata" muted playsinline>
+                            <source src="pics/lv_0_20231002092113 - Trim.mp4" type="video/mp4">
+                        </video>
+                        <div class="gallery-overlay play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        </div>
+                    
+                        <div class="video-dropdown">
+                        <video controls class="main-video">
+                            <source src="pics/lv_0_20231002092113 - Trim.mp4" type="video/mp4">
+                        </video>
+                        </div>
+                    </div>
+                    <div class="gallery-item video-item">
+                        <div class="video-preview">
+                        <video class="video-thumb" preload="metadata" muted playsinline>
+                            <source src="pics/lv_0_20250509230753.mp4" type="video/mp4">
+                        </video>
+                        <div class="gallery-overlay play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        </div>
+                    
+                        <div class="video-dropdown">
+                        <video controls class="main-video">
+                            <source src="pics/lv_0_20250509230753.mp4" type="video/mp4">
+                        </video>
+                        </div>
+                    </div>
+                    <div class="gallery-item video-item">
+                        <div class="video-preview">
+                        <video class="video-thumb" preload="metadata" muted playsinline>
+                            <source src="pics/7194305835638590747_no_watermark.mp4" type="video/mp4">
+                        </video>
+                        <div class="gallery-overlay play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        </div>
+                    
+                        <div class="video-dropdown">
+                        <video controls class="main-video">
+                            <source src="pics/7194305835638590747_no_watermark.mp4" type="video/mp4">
+                        </video>
+                        </div>
+                    </div>
+                    <div class="gallery-item video-item">
+                        <div class="video-preview">
+                        <video class="video-thumb" preload="metadata" muted playsinline>
+                            <source src="pics/VID_26881117_160336_967.mp4" type="video/mp4">
+                        </video>
+                        <div class="gallery-overlay play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        </div>
+                    
+                        <div class="video-dropdown">
+                        <video controls class="main-video">
+                            <source src="pics/VID_26881117_160336_967.mp4" type="video/mp4">
+                        </video>
+                        </div>
+                    </div>
+                    </div>
+              </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p> 1256 National Roadm Timugan, Los Baños, Laguna, Philippines</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>charles0409@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+63 966 5574 751</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/charles.devera.125"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>About Me</h3>
+                    <p>A passionate BSIT 3rd Year student at Laguna State Polytechnic University - Los Baños Campus with diverse skills and interests in technology, arts, and continuous learning.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#philosophy">Philosophy</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Stay Updated</h3>
+                    <form>
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 My Autobiography. All Rights Reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/charles.devera.125"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn" id="closeLightbox">&times;</span>
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+        <div class="lightbox-nav">
+            <button class="prev-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: false
+        });
+    </script>
+</body>
+</html>
